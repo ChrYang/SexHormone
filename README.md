@@ -3,15 +3,15 @@ You could copy and paste the function in TCal.R to convert total testosterone in
 For instance:<br/>
 
 ```r
-FreeT <- TCal(
+FreeT <- TCalc(
   Testosterone = df$T,
   SHBG = df$SHBG,
   ALB = df$ALB,
-  ALB_deafult = FALSE,
+  ALB_default = FALSE,
   Testosterone_unit = "nmol/L",
   SHBG_unit = "nmol/L",
   ALB_unit = "g/L",
-  type = "FreeT"
+  Type = "FreeT"
 )
 ```
 
